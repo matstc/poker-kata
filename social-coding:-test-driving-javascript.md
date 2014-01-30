@@ -1,13 +1,3 @@
-# About Me
-
-<div style="text-align:center; margin-top:55px;">
-__Matthieu Tanguay-Carel__
-
-[matthieutc.com](http://matthieutc.com)
-
-[@matstc](http://twitter.com/matstc)
-</div>
-
 # The Goal
 
 - Pairing
@@ -51,9 +41,4 @@ Your program should output this:
 ## Poker Hand Rankings
 ![](poker-rankings.png)
 
-<style>
-.note, note {font-size:80%; color:#666; font-style: italic;}
-ol li, ul li {margin-bottom:10px;}
-ol, ul {margin-top: 25px;}
-h2 {background-color:#555; color:white; padding-left:3px;}
-</style>
+Source: [pokerlistings.com](http://www.pokerlistings.com/poker-hand-ranking)
