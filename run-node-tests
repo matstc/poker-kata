@@ -1,0 +1,7 @@
+#!/bin/bash
+#NODE_PATH=node-src:$NODE_PATH mocha --compilers coffee:coffee-script -w node-spec/
+
+echo compiling...
+coffee -c node-spec/*coffee node-src/*coffee
+echo running jasmine-node
+NODE_PATH=node-src:$NODE_PATH jasmine-node --verbose node-spec/

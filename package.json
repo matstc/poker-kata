@@ -1,0 +1,10 @@
+{
+  "name": "js-workshop",
+  "version": "0.1.0",
+  "devDependencies": {
+    "jasmine-node": "~1.13.0",
+    "coffee-script": "*",
+    "assert-plus": "*",
+    "underscore": "*"
+  }
+}
