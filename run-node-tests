@@ -4,4 +4,5 @@
 echo compiling...
 coffee -c spec/*coffee src/*coffee
 echo running jasmine-node
+#NODE_PATH=src:$NODE_PATH grunt
 NODE_PATH=src:$NODE_PATH jasmine-node --verbose spec/
