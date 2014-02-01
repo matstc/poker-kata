@@ -22,21 +22,21 @@ See [original kata](http://codingdojo.org/cgi-bin/wiki.pl?KataTexasHoldEm).
 
 Given this:
 
-    Kc 9s Ks Kd 9d 3c 6d
-    9c Ah Ks Kd 9d 3c 6d
-    Ac Qc Ks Kd 9d 3c 
-    9h 5s 
-    4d 2d Ks Kd 9d 3c 6d
-    7s Ts Ks Kd 9d 
+    Kc 9s Ks Kd 9d
+    8c Ah Qs Qd 8d
+    Ac Qc Js Jd 7d
+    9h 5s 7c Qh 4h
+    4d 2d 3d Ad Td
+    7s Ts 6s 6d 9c
 
 Your program should output this:
 
-    Kc 9s Ks Kd 9d 3c 6d Full House (winner)
-    9c Ah Ks Kd 9d 3c 6d Two Pair
-    Ac Qc Ks Kd 9d 3c Pair
-    9h 5s High Card
-    4d 2d Ks Kd 9d 3c 6d Flush
-    7s Ts Ks Kd 9d Pair
+    Kc 9s Ks Kd 9d Full House (winner)
+    8c Ah Qs Qd 8d Two Pair
+    Ac Qc Js Jd 7d Pair
+    9h 5s 7c Qh 4h High Card
+    4d 2d 3d Ad Td Flush
+    7s Ts 6s 6d 9c Pair
 
 ## Poker Hand Rankings
 ![](poker-rankings.png)
