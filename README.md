@@ -26,7 +26,7 @@ Given a list of poker hands, figure out what they are worth and figure out the w
 
 See [original kata](http://codingdojo.org/cgi-bin/wiki.pl?KataTexasHoldEm).
 
-The kata definition here was modified to only have poker hands with 5 cards.
+The kata definition here was modified to only have poker hands with 5 cards. The input/output example was also simplified.
 
 ## Example Input / Output
 
@@ -48,12 +48,12 @@ Your program should output this:
     4d 2d 3d Ad Td Flush
     7s Ts 6s 6d 9c Pair
 
-One test was already provided that tests for this example input/output. You should write more tests to test lower-level details and edge cases.
+One test was already provided to test for this example input/output. You should write more tests to test lower-level details and edge cases.
 
 If you have time, make sure your code:
 
+- orders hands in descending value
 - takes into account kickers
-- orders hands best one at the top
 - handles an arbitrary number of hands
 - calls out draws
 
